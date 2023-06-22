@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "storybook": "lerna start-storybook -p 6006",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "format": "lerna run format",
+    "prepublishOnly": "lerna run prepublishOnly",
+    "dev": "lerna run dev"
+  },
+  "devDependencies": {
+    "lerna": "^7.0.2",
+    "core": "*",
+    "ui": "*",
+    "eslint": "8.43.0",
+    "eslint-config": "*",
+    "prettier": "2.4.1"
+  }
+}

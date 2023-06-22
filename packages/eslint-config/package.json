@@ -1,0 +1,12 @@
+{
+    "name": "eslint-config-next",
+    "version": "0.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "eslint": "8.43.0",
+        "eslint-config-next": "13.4.6",
+        "eslint-plugin-prettier": "4.0.0"
+    }
+}

@@ -1,3 +1,6 @@
 [submodule "apps/docs/Monorepo_Submodules"]
 	path = apps/docs/Monorepo_Submodules
 	url = git@github.com:panyakorn04/Monorepo_Submodules.git
+[submodule "Monorepo_Submodules"]
+	path = Monorepo_Submodules
+	url = git@github.com:panyakorn04/Monorepo_Submodules.git
